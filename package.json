@@ -1,0 +1,22 @@
+{
+  "name": "undobot",
+  "version": "0.0.1",
+  "description": "A bot that helps you easily undo mistakes made in your Discord server.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tsc && node lib/index.js"
+  },
+  "author": "TheNoob27",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^7.4.0",
+    "command-tags": "^1.1.6",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^5.4.1",
+    "@types/node": "^15.12.0"
+  }
+}
